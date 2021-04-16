@@ -1,6 +1,5 @@
 import logo from './logo.svg';
 import './App.css';
-import HomePage from '.components/Home'
 import About from './components/About';
 import Contact from './components/Contact';
 import Portfolio from './components/Portfolio';
@@ -17,7 +16,7 @@ function App() {
           <Nav />
         </header>
         <Switch>
-        <Route path="/" exact component={ HomePage }/>
+        <Route path="/" exact component={ Portfolio }/>
         <Route path="/about" component={ About }/>
         <Route path="/portfolio" component={ Portfolio }/>
         <Route path="/contact" component={ Contact }/>
