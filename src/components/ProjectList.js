@@ -23,25 +23,19 @@ const projects = [
     name:'TeamWork Ticketing Portal',
     date:'January 2021',
     links:'',
-    img:'',
-    jobType:[],
-    id: 1
+    img:''
   },
   {
     name:'WordPress Website',
     date:'December 2020',
     links:'',
-    img:'',
-    jobType:[],
-    id: 2
+    img:''
   },
   {
     name:'OnePage Website',
     date:'January 2021',
     links:'https://kevinflex.github.io/WatchIt/',
-    img:'',
-    jobType:[],
-    id: 3
+    img:''
   }
 ];
 

@@ -1,30 +1,29 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import '../App.css';
 import ProjectList from './ProjectList';
 
-// function changeProject() {
-//   function handleClick(e) {
-//     e.preventDefault();
-//   }
+function Project(props) {
+    const [id, setId] = useState(0)
 
-//   return (
-// <button onClick={changeProject}>
-//   Another project
-// </button>
-//   );
-// }
-function Project() {
+    const handleClick = function (e) {
+      e.preventDefault()
+      setId(id => id + 1);
+    }
+
 
     return (
-        <div>
+      <div>
+        <row>
           <ProjectList />
-        </div>
+        </row>
+        <row>
+          <button onClick={handleClick}>
+            Another project
+          </button>
+        </row>
+      </div>
     );
-
 }
 
 
-// function ProjectSelect()
-
-
-  export default Project;
+export default Project;

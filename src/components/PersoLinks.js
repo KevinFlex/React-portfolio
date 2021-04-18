@@ -1,40 +1,27 @@
 import React from 'react';
 import '../App.css';
+import persolink1 from '../asset/linkedin.png'
+import persolink2 from '../asset/codepen.png'
+import persolink3 from '../asset/github.png'
 
-function PersoLinks(props) {
-  const linkFrame = props.links && props.links.map((link) =>
-    <div key={link.id}>
-      <h3>{link.name}</h3>
-      <p>{link.links}</p>
-    </div>
-  );
+function PersoLinks() {
 
   return (
-    <div>
-      {linkFrame}
-    </div>
-);
-}
+    <div>    
+      <a href="https://www.linkedin.com/in/kevin-vegiotti" target="_blank">
+        <img src={persolink1} className="persoLinkIcon" />
+      </a>
+      <a href="https://codepen.io/kevinflex" target="_blank">
+        <img src={persolink2} className="persoLinkIcon" />
+      </a>    
+      <a href="https://github.com/KevinFlex" target="_blank">
+        <img src={persolink3} className="persoLinkIcon" />
+      </a>
+    </div >
 
-const links = [
-  {
-    name:'TeamWork Ticketing Portal',
-    links:'https://www.linkedin.com/in/kevin-vegiotti',
-    id: 1
-  },
-  {
-    name:'GitHub',
-    links:'https://github.com/KevinFlex',
-    id: 2
-  },
-  {
-    name:'CodePen',
-    links:'https://codepen.io/kevinflex',
-    id: 3
-  }
-];
+  );
+}
 
 
 export default PersoLinks;
 
-  
