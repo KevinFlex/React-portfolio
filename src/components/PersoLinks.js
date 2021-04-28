@@ -9,13 +9,13 @@ function PersoLinks() {
   return (
     <div>    
       <a href="https://www.linkedin.com/in/kevin-vegiotti" target="_blank">
-        <img src={persolink1} className="persoLinkIcon" />
+        <img src={persolink1} className="persoLinkIcon" alt="LinkedIn" />
       </a>
       <a href="https://codepen.io/kevinflex" target="_blank">
-        <img src={persolink2} className="persoLinkIcon" />
+        <img src={persolink2} className="persoLinkIcon" alt="CodepenIo" />
       </a>    
       <a href="https://github.com/KevinFlex" target="_blank">
-        <img src={persolink3} className="persoLinkIcon" />
+        <img src={persolink3} className="persoLinkIcon" alt="Guthub" />
       </a>
     </div >
 

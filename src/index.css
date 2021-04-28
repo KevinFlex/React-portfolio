@@ -11,3 +11,27 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.hero {
+  position: relative;
+  background: url(https://i.pinimg.com/originals/ca/90/ac/ca90acfe7cbdea63cd4910e5994cc280.jpg) center center;
+  background-size: cover;
+  height: 70vh;
+}
+
+.hero:before {
+  content: '';
+  position: absolute;
+  top:0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(0,0,0,0.2)
+}
+
+.hero h1 {
+  z-index: 10;
+  color: whitesmoke;
+  justify-content: center;
+  padding-top: 5em;
+}
