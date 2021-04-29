@@ -1,9 +1,10 @@
-import logo from './logo.svg';
 import './App.css';
+import React from 'react';
 import About from './components/About';
 import Contact from './components/Contact';
 import Portfolio from './components/Portfolio';
-import Nav from './components/Nav';
+import TopNav from './components/TopNav';
+import BotNav from './components/BotNav';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 
 
@@ -12,7 +13,7 @@ function App() {
     <Router>
       <div className="App">
         <header>
-          <Nav />
+          <TopNav />
         </header>
         <Switch>
         <Route path="/" exact component={ Portfolio }/>
@@ -20,6 +21,9 @@ function App() {
         <Route path="/portfolio" component={ Portfolio }/>
         <Route path="/contact" component={ Contact }/>
         </Switch>
+        <footer>
+          <BotNav />
+        </footer>
       </div>
     </Router>
   );

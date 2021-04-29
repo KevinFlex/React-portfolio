@@ -14,9 +14,9 @@ code {
 
 .hero {
   position: relative;
-  background: url(https://i.pinimg.com/originals/ca/90/ac/ca90acfe7cbdea63cd4910e5994cc280.jpg) center center;
+  background: url(https://cdn.wallpapersafari.com/30/50/MZbz3e.jpg) center center;
   background-size: cover;
-  height: 70vh;
+  height: 100vh;
 }
 
 .hero:before {
@@ -26,12 +26,46 @@ code {
   bottom: 0;
   left: 0;
   right: 0;
-  background-color: rgba(0,0,0,0.2)
+  background-color: rgba(0,0,0,0.7)
 }
 
 .hero h1 {
+  display: flex;
+  font-weight: bold;
   z-index: 10;
   color: whitesmoke;
   justify-content: center;
   padding-top: 5em;
 }
+
+/* #myWorkBtn {
+  z-index: 10;
+  justify-content: center;
+  position: absolute;
+  top: 90vh;
+  left: 45%;
+} */
+
+.projectSlideShow {
+  background: linear-gradient(#0A1B28, #444B4B);
+}
+
+.project-picture {
+  display: block;
+  width: 100%;
+  height: 58vh;
+  size: 30vmax, 30vmax;
+  -webkit-transform: scale(1);
+  transform: scale(1);
+  -webkit-transition: .3s ease-in-out;
+  transition: .3s ease-in-out;
+}
+
+.project-picture:hover {
+  opacity: 0.6;
+}
+
+.navIcon {
+  height: 25px;
+}
+
