@@ -31,8 +31,7 @@ function Accordion2() {
                                             <Card.Body>
                                                 <Card.Title>Front End Frameworks</Card.Title>
                                                 <Card.Text>
-                                                    This is a wider card with supporting text below as a natural lead-in to
-                                                    additional content. This content is a little bit longer.
+                                                    Essentially, I use <strong>Vue.js</strong>, quite efficient in fact but I can developp on react, angular and many other..
                                                 </Card.Text>
                                             </Card.Body>
                                         </Card>
@@ -41,8 +40,7 @@ function Accordion2() {
                                             <Card.Body>
                                                 <Card.Title>Back End Framework</Card.Title>
                                                 <Card.Text>
-                                                    This card has supporting text below as a natural lead-in to additional
-                                      content.{' '}
+                                                    On the great battle of backend Framework I decided to choose both ! Lot of <strong>Net Framework</strong> during company time and JS on peronal project.
                                                 </Card.Text>
                                             </Card.Body>
 
@@ -52,8 +50,7 @@ function Accordion2() {
                                             <Card.Body>
                                                 <Card.Title>Industrial engineering</Card.Title>
                                                 <Card.Text>
-                                                    This card has supporting text below as a natural lead-in to additional
-                                      content.{' '}
+                                                    From the <a href="https://www.cesi.fr/cesi-ecole-ingenieurs/" target="_blank">Cesi</a> engineering school I have worked several year as <strong>electrical</strong> and <strong>mechanical</strong> conceptor. So jump inside a ton of technical documents doesn't scared me.
                                                 </Card.Text>
                                             </Card.Body>
 

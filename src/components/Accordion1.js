@@ -80,18 +80,15 @@ function Accordion1() {
                         bg="info"
                         text="light"
                         className="mb-2">
-                        <Accordion>
 
-                            <Card.Header><Accordion.Toggle as={Card.Header} variant="link" eventKey="1"><Card.Img className="aboutPic1 rounded" variant="top" src={img} />
-                            </Accordion.Toggle></Card.Header><Accordion.Collapse eventKey="1">
+                            <Card.Header><Card.Img className="aboutPic1 rounded" variant="top" src={img} />
+                            </Card.Header>
                                 <Card.Body>
                                     <Card.Title> Hi ! My name's Kevin </Card.Title>
                                     <Card.Text>
                                         I'm french -yep, no one's perfect- live in Britanny and had recently traded my engineer job as conceptor to start developer career of application... Quite simillar actually !
                             </Card.Text>
                                 </Card.Body>
-                            </ Accordion.Collapse>
-                        </ Accordion>
                     </Card>
 
                 </Col>

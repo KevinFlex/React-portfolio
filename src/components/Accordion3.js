@@ -31,8 +31,7 @@ function Accordion3() {
                                             <Card.Body>
                                                 <Card.Title>Team work</Card.Title>
                                                 <Card.Text>
-                                                    This is a wider card with supporting text below as a natural lead-in to
-                                                    additional content. This content is a little bit longer.
+                                                A way of work in fact. Maybe the only one actually. Even in informatic we say "you never the first to ask". So <strong>help the other and ask when you don't know</strong>, my credo.
                                     </Card.Text>
                                             </Card.Body>
                                         </Card>
@@ -41,8 +40,7 @@ function Accordion3() {
                                             <Card.Body>
                                                 <Card.Title>Thinking on pluri-technical problem</Card.Title>
                                                 <Card.Text>
-                                                    This card has supporting text below as a natural lead-in to additional
-                                      content.{' '}
+                                                    As in technology everything's linked, the render, datas, infrastructure even worker's organisation.. So I try to <strong>stay open minded everyday</strong>.
                                                 </Card.Text>
                                             </Card.Body>
 
@@ -52,8 +50,7 @@ function Accordion3() {
                                             <Card.Body>
                                                 <Card.Title>Flying ...</Card.Title>
                                                 <Card.Text>
-                                                    This card has supporting text below as a natural lead-in to additional
-                                      content.{' '}
+                                                    In paragliding, it depends on capricious weather but that'svery rewarding to lift ourself above clouds with a bag and some wire. 
                                                 </Card.Text>
                                             </Card.Body>
 
