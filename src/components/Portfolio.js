@@ -1,8 +1,6 @@
-import React from 'react';
-import '../App.css';
-import ProjectList from './ProjectList';
-import TechnicalSkill from './TechnicalSkill';
-import Button from 'react-bootstrap/Button';
+import React from 'react'
+import '../App.css'
+import ProjectList from './ProjectList'
 
 function Portfolio() {
     return (
@@ -19,11 +17,6 @@ function Portfolio() {
                     </div>
                 </div>
             </section>
-
-
-            {/* <row>
-                <TechnicalSkill />
-            </row> */}
         </div>
     );
 }

@@ -9,13 +9,13 @@ import Logo from '../asset/logo.PNG'
 
 function TopNav() {
     return (
-        <Navbar fixed="top" bg="dark" variant="dark" expand="lg">
+        <Navbar sticky="top" bg="dark" variant="dark" expand="lg">
             <Navbar.Brand href="#home"></Navbar.Brand>
             <img
                 src= { Logo }
-                width="250"
+                width="200"
                 height="80"
-                className="d-inline-block align-left rounded"
+                className="d-block rounded mr-auto"
                 alt="FlexDev logo" />
                     <Navbar.Toggle aria-controls="basic-navbar-nav" />
                     <Navbar.Collapse id="basic-navbar-nav">

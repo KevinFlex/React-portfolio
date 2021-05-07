@@ -1,22 +1,22 @@
-import React from 'react';
-import '../App.css';
-import Forms from './Forms';
-import PersoLinks from './PersoLinks';
+import React from 'react'
+import '../App.css'
+import Forms from './Forms'
+import PersoLinks from './PersoLinks'
+import Container from 'react-bootstrap/Container'
 
 function Contact() {
     return (
-        <div>
-            <section className="form">
-            <h1>Contact Page</h1>
-            <div>
-                <Forms />
-            </div>
+        <div className="contactPage">
+            <Container>
+            <section className="contactForm">
+                <div>
+                    <Forms />
+                </div>
             </section>
             <section className="persoLink">
-            <row>
                 <PersoLinks />
-            </row>
             </section>
+            </Container>
         </div>
     );
 }
