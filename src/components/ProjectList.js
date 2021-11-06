@@ -5,6 +5,7 @@ import Icon1 from '../asset/Proj1.PNG'
 import Icon2 from '../asset/Proj2.PNG'
 import Icon3 from '../asset/Proj3.PNG'
 import Icon4 from '../asset/Proj4.PNG'
+import Icon5 from '../asset/Proj5.PNG'
 import Container from 'react-bootstrap/Container'
 import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
@@ -41,6 +42,13 @@ const projects = [
     links: 'http://aloha-demo.id3i.fr/',
     src: Icon4,
     alt: 'website project'
+  },
+  {
+    name: 'Diynamic CMS Website',
+    pop: 'Website with its dynamic CMS',
+    links: 'https://biobank.fr/',
+    src: Icon5,
+    alt: 'Dynamic website'
   }
 ];
 
